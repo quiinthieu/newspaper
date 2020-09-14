@@ -1,0 +1,28 @@
+/*-------------------------------------------------------------------*/
+/* === Import Bootstrap functions and variables === */
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+/*-------------------------------------------------------------------*/
+/* === Import template variables === */
+@import "variables"; //check
+
+/*-------------------------------------------------------------------*/
+/* === Boostrap Main SCSS === */
+@import "~bootstrap/scss/bootstrap";
+
+/*-------------------------------------------------------------------*/
+
+/* === Core Styles === */
+@import "cards"; // check
+@import "fonts"; // check
+@import "typography"; //check
+@import "pagination"; //check
+@import "./mixins/buttons";
+@import "buttons"; //check
+@import "./navbar"; //check
+@import "./wrapper"; //check
+@import "./news-post"; //check
+@import "./contact"; //check
+@import "./footer"; //check
+@import "./error"; //check
