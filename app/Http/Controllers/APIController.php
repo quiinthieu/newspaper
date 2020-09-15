@@ -6,7 +6,7 @@ use App\Util\NewsAPI;
 
 class APIController extends Controller {
     protected $newsAPI;
-    protected $sources = ['new-york-magazine', 'cbs-news'];
+    protected $sources = ['wired', 'new-york-magazine', 'cbs-news'];
 
     public function __construct(NewsAPI $newsAPI)
     {
@@ -19,7 +19,7 @@ class APIController extends Controller {
             'pageSize' => 100
         ];
         return array_values(array_filter($this->newsAPI->everything($params), function ($article) {
-            return strlen($article['title']) < 50;
+            return strlen($article['title']) < 60 && strlen($article['author']) < 20;
         }));
     }
 
@@ -63,6 +63,10 @@ class APIController extends Controller {
         $topThumbnailArticles = array_slice($articles, 0, 4);
         $owlCarouselArticles = array_slice($articles, 4, 4);
         $topSideBarArticles = array_slice($articles, 8, 6);
-        return view('home', compact('topThumbnailArticles', 'owlCarouselArticles', 'topSideBarArticles'));
+        $worldNewsArticles = array_slice($articles, 14, 4);
+        $editorsChoiceArticles = array_slice($articles, 18, 5);
+        $popularNewsArticles= array_slice($articles, 23, 6);
+
+        return view('home', compact('topThumbnailArticles', 'owlCarouselArticles', 'topSideBarArticles', 'worldNewsArticles', 'editorsChoiceArticles', 'popularNewsArticles'));
     }
 }
