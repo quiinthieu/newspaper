@@ -18,8 +18,6 @@
   <component name="ChangeListManager">
     <list default="true" id="31010427-a13f-44ae-91a6-e7478e879485" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/APIController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/APIController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/owl-carousel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/owl-carousel.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/top-side-bar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/top-side-bar.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,6 +192,7 @@
       <workItem from="1600004643732" duration="3263000" />
       <workItem from="1600047857446" duration="20491000" />
       <workItem from="1600139953706" duration="14597000" />
+      <workItem from="1600171893851" duration="423000" />
     </task>
     <servers />
   </component>
