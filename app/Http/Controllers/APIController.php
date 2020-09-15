@@ -11,20 +11,17 @@ class APIController extends Controller {
     {
         $this->newsAPI = $newsAPI;
     }
-    public function business() {
+
+    public function home() {
         $params = [
             'language' => 'en',
-            'sortBy' => 'publishedAt',
-            'q' => 'business'
+            'q' => 'business',
+            'pageSize' => 100
         ];
-        $articles = $this->newsAPI->everything($params);
-        return view('business', compact($articles));
-    }
-    public function topThumbnail() {
-        $params = [
-            'country' => 'us',
-            'category' => 'technology'
-        ];
-        return $this->newsAPI->topHeadlines($params);
+        $articles = array_filter($this->newsAPI->everything($params), function ($article) {
+            return strlen($article['title']) < 50;
+        });
+        $topThumbnailArticles = array_slice($articles, 0, 4);
+        return view('home', compact('topThumbnailArticles'));
     }
 }

@@ -20,7 +20,7 @@ use App\Http\Controllers\HomeController;
 //    return view('welcome');
 //});
 
-//Route::get('/business', [APIController::class, 'business'])->name('business');
+Route::get('/', [APIController::class, 'home'])->name('home');
 
-Route::get('/', [HomeController::class, 'home'])->name('home');
+//Route::get('/', [HomeController::class, 'home'])->name('home');
 

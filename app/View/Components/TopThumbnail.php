@@ -11,9 +11,10 @@ class TopThumbnail extends Component
      *
      * @return void
      */
-    public function __construct()
+    public $articles;
+    public function __construct($articles)
     {
-        //
+        $this->articles = json_decode($articles, true);
     }
 
     /**

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31010427-a13f-44ae-91a6-e7478e879485" name="Default Changelist" comment="" />
+    <list default="true" id="31010427-a13f-44ae-91a6-e7478e879485" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/APIController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/APIController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/Components/TopThumbnail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/TopThumbnail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/top-thumbnail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/top-thumbnail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +18,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -124,6 +135,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1hSARJ25anXdz9Y8kJm2tj4LYXo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -160,7 +172,8 @@
       <updated>1599994109571</updated>
       <workItem from="1599994110982" duration="1534000" />
       <workItem from="1600004643732" duration="3263000" />
-      <workItem from="1600047857446" duration="17103000" />
+      <workItem from="1600047857446" duration="20491000" />
+      <workItem from="1600139953706" duration="6635000" />
     </task>
     <servers />
   </component>
