@@ -4,7 +4,7 @@
         @foreach($articles as $article)
             <div class="item">
                 <div class="carousel-content-wrapper mb-2">
-                    <div class="carousel-content">
+                    <div class="carousel-content p-2" style="background-color: rgba(0, 0, 0, 0.8);">
                         <h1 class="font-weight-bold">
                             {{$article['title']}}
                         </h1>

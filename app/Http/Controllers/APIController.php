@@ -6,6 +6,7 @@ use App\Util\NewsAPI;
 
 class APIController extends Controller {
     protected $newsAPI;
+    protected $sources = ['new-york-magazine', 'cbs-news'];
 
     public function __construct(NewsAPI $newsAPI)
     {
@@ -14,7 +15,7 @@ class APIController extends Controller {
 
     protected function getArticles() {
         $params = [
-            'sources' => 'cbs-news',
+            'sources' => $this->sources[0],
             'pageSize' => 100
         ];
         return array_values(array_filter($this->newsAPI->everything($params), function ($article) {

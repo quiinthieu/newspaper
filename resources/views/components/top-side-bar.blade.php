@@ -1,9 +1,9 @@
 <!-- If you do not have a consistent goal in life, you can not live it in a consistent way. - Marcus Aurelius -->
 <div class="col-lg-4">
     @for($i = 0; $i < count($articles); $i += 2)
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="py-4 {{$i !== 4 ? "border-bottom" : ""}}">
+        <div class="row border border-info">
+            <div class="col-sm-6 border border-warning">
+                <div class="py-4 {{$i !== 4 ? "border-bottom" : ""}} border border-success">
                     <div class="d-flex align-items-center pb-2">
                         <img
                             src="{{$articles[$i]['urlToImage']}}"
@@ -17,8 +17,8 @@
                     </p>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <div class="py-4 {{$i !== 4 ? "border-bottom" : ""}}">
+            <div class="col-sm-6 border border-warning">
+                <div class="py-4 {{$i !== 4 ? "border-bottom" : ""}} border border-success">
                     <div class="d-flex align-items-center pb-2">
                         <img
                             src="{{$articles[$i + 1]['urlToImage']}}"
