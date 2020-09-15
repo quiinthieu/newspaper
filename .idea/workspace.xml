@@ -17,13 +17,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31010427-a13f-44ae-91a6-e7478e879485" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/View/Components/OwlCarousel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/TopSideBar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/owl-carousel.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/top-side-bar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/APIController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/APIController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/top-side-bar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/top-side-bar.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,6 +221,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -254,5 +251,9 @@
       <screen x="0" y="25" width="1440" height="806" />
     </state>
     <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.806@0.25.1440.806" timestamp="1599994173133" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1600159804624">
+      <screen x="0" y="25" width="1440" height="806" />
+    </state>
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.25.1440.806@0.25.1440.806" timestamp="1600159804624" />
   </component>
 </project>

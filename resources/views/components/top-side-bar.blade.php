@@ -3,14 +3,14 @@
     @for($i = 0; $i < count($articles); $i += 2)
         <div class="row">
             <div class="col-sm-6">
-                <div class="py-3 border-bottom">
+                <div class="py-4 {{$i !== 4 ? "border-bottom" : ""}}">
                     <div class="d-flex align-items-center pb-2">
                         <img
-                        src="{{asset('storage/assets/images/dashboard/Profile_1.jpg')}}"
-                        class="img-xs img-rounded mr-2"
-                        alt="thumb"
+                            src="{{$articles[$i]['urlToImage']}}"
+                            class="img-xs img-rounded mr-2"
+                            alt="thumb"
                         />
-                            <span class="fs-12 text-muted">{{$articles[$i]['author']}}</span>
+                        <span class="fs-12 text-muted">{{$articles[$i]['author']}}</span>
                     </div>
                     <p class="fs-14 m-0 font-weight-medium line-height-sm">
                         {{$articles[$i]['title']}}
@@ -18,10 +18,10 @@
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="py-3 border-bottom">
+                <div class="py-4 {{$i !== 4 ? "border-bottom" : ""}}">
                     <div class="d-flex align-items-center pb-2">
                         <img
-                            src="{{asset('storage/assets/images/dashboard/Profile_1.jpg')}}"
+                            src="{{$articles[$i + 1]['urlToImage']}}"
                             class="img-xs img-rounded mr-2"
                             alt="thumb"
                         />
